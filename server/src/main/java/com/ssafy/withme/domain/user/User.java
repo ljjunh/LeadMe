@@ -3,16 +3,17 @@ package com.ssafy.withme.domain.user;
 import com.ssafy.withme.domain.BaseEntity;
 import com.ssafy.withme.domain.user.constant.RoleType;
 import com.ssafy.withme.domain.user.constant.UserStatus;
+import com.ssafy.withme.domain.user.constant.UserType;
 import jakarta.persistence.*;
-import lombok.AccessLevel;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import java.time.LocalDateTime;
 
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
+@AllArgsConstructor
 @Entity(name = "users")
+@Builder
 public class User extends BaseEntity {
 
     @Id
@@ -29,8 +30,17 @@ public class User extends BaseEntity {
 
     private String age;
 
+    private String birthYear;
+
+    private String birthDay;
+
+    private String birthDayType;
+
     @Enumerated(EnumType.STRING)
     private RoleType roleType;
+
+    @Enumerated(EnumType.STRING)
+    private UserType userType;
 
     private String profileImg;
 
@@ -40,4 +50,12 @@ public class User extends BaseEntity {
 
     @Enumerated(EnumType.STRING)
     private UserStatus userStatus;
+
+    @OneToOne(fetch = FetchType.LAZY)
+    private RefreshToken refreshToken;
+
+    public void updateRefreshToken(String refreshToken) {
+
+        this.refreshToken.updateRefreshToken(refreshToken);
+    }
 }
