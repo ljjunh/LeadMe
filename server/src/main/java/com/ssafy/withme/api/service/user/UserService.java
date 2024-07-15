@@ -1,7 +1,7 @@
-package com.ssafy.withme.api.service;
+package com.ssafy.withme.api.service.user;
 
 
-import com.ssafy.withme.domain.user.UserRepository;
+import com.ssafy.withme.repository.user.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

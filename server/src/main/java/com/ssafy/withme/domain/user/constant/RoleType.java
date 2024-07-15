@@ -1,4 +1,4 @@
-package com.ssafy.withme.domain.user;
+package com.ssafy.withme.domain.user.constant;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

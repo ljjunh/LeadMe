@@ -1,6 +1,8 @@
 package com.ssafy.withme.domain.user;
 
 import com.ssafy.withme.domain.BaseEntity;
+import com.ssafy.withme.domain.user.constant.RoleType;
+import com.ssafy.withme.domain.user.constant.UserStatus;
 import jakarta.persistence.*;
 import lombok.AccessLevel;
 import lombok.Getter;
@@ -10,7 +12,7 @@ import java.time.LocalDateTime;
 
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
-@Entity
+@Entity(name = "users")
 public class User extends BaseEntity {
 
     @Id

@@ -1,5 +1,6 @@
-package com.ssafy.withme.domain.user;
+package com.ssafy.withme.repository.user;
 
+import com.ssafy.withme.domain.user.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
