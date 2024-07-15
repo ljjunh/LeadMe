@@ -23,3 +23,7 @@ logging:
   level:
     org.hibernate.type: trace
     com.ssafy.withme: debug
+
+kakao:
+  client:
+    id: 906844f5e157bcb88f914f692843c753
