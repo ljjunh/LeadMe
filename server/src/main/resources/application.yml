@@ -23,3 +23,7 @@ logging:
   level:
     org.hibernate.type: trace
     com.ssafy.withme: debug
+
+jwt:
+  issuer: secretkey@gmail.com
+  secreat_key: leadme
