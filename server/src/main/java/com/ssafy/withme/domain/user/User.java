@@ -30,7 +30,6 @@ public class User extends BaseEntity {
     @Enumerated(EnumType.STRING)
     private RoleType roleType;
 
-
     private String profileImg;
 
     private String profileComment;

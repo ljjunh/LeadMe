@@ -7,8 +7,9 @@ import lombok.RequiredArgsConstructor;
 @Getter
 public enum UserStatus {
 
-    INACTIVE("휴면계정"),
-    ACTIVE("활동계정");
+    INACTIVE("휴면"),
+    ACTIVE("활동"),
+    DELETED("탈퇴");
 
     private final String description;
 
