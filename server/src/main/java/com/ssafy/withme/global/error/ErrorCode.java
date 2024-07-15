@@ -18,7 +18,7 @@ public enum ErrorCode {
     NOT_EQUAL_PASSWORD(HttpStatus.UNAUTHORIZED, HttpStatus.UNAUTHORIZED.value(), "Password가 일치하지 않습니다."),
 
     // 회원,
-    INVALID_MEMBER_TYPE(HttpStatus.BAD_REQUEST, HttpStatus.BAD_REQUEST.value(), "잘못된 회원 타입입니다."),
+    INVALID_USER_TYPE(HttpStatus.BAD_REQUEST, HttpStatus.BAD_REQUEST.value(), "잘못된 회원 타입입니다."),
     ALREADY_REGISTERED_MEMBER(HttpStatus.BAD_REQUEST, HttpStatus.BAD_REQUEST.value(), "이미 가입된 회원입니다."),
     USER_NOT_EXISTS(HttpStatus.NOT_FOUND, HttpStatus.NOT_FOUND.value(), "해당 회원은 존재하지 않습니다."),
     NOT_EXISTS_EMAIL(HttpStatus.NOT_FOUND, HttpStatus.NOT_FOUND.value(), "일치하는 Email 정보가 존재하지 않습니다."),
