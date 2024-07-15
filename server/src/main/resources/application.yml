@@ -17,9 +17,18 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/leadme?useSSL=false&serverTimezone=Asia/Seoul&characterEncoding=UTF-8
     username: root
-    password: 1234
+    password: ssafy
 
 logging:
   level:
     org.hibernate.type: trace
     com.ssafy.withme: debug
+
+
+# 추가
+oauth:
+  kakao:
+    client_id: 2a75df25c4dfed9ad3e7b3f304071076 # REST API 키
+    redirect_uri: http://localhost:8080/oauth/redirected/kakao
+    client_secret: 4rMlEM1RP4rnS8JigHZTUv8XqbrjExbs # Client Secret 키
+    scope: profile_nickname, profile_image
