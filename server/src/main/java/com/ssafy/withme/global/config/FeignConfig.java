@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 
 @Configuration
-@EnableFeignClients
+@EnableFeignClients(basePackages = "com.ssafy.withme")
 @Import(FeignClientsConfiguration.class)
 public class FeignConfig {
 
