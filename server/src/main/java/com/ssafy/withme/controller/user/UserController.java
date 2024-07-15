@@ -1,6 +1,6 @@
-package com.ssafy.withme.api.controller.user;
+package com.ssafy.withme.controller.user;
 
-import com.ssafy.withme.api.service.user.UserService;
+import com.ssafy.withme.service.user.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.RestController;
 

@@ -1,4 +1,4 @@
-package com.ssafy.withme.api.service.user;
+package com.ssafy.withme.service.user;
 
 
 import com.ssafy.withme.repository.user.UserRepository;
