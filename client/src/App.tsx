@@ -1,14 +1,22 @@
 import React from "react";
-// import Button from "./components/TestBtn";
+import { Routes, Route } from "react-router-dom";
 import { RecoilRoot } from "recoil";
 import { MainCanvas } from "./components/MainCanvas";
 import styled from "styled-components";
+
 const App: React.FC = () => {
   return (
     <RecoilRoot>
-      <Wrapper>
-        <MainCanvas />
-      </Wrapper>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <Wrapper>
+              <MainCanvas />
+            </Wrapper>
+          }
+        ></Route>
+      </Routes>
     </RecoilRoot>
   );
 };
