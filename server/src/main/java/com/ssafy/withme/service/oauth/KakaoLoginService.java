@@ -28,7 +28,7 @@ public class KakaoLoginService implements SocialLoginApiService{
 
         log.info("accessToken: {}", accessToken);
 
-        KakaoLoginResponseDto kakaoUserInfo = client.getKakaoUserInfo(CONTENT_TYPE, accessToken);
+        KakaoLoginResponseDto kakaoUserInfo = client.getKakaoUserInfo(CONTENT_TYPE, "Bearer " + accessToken);
         KakaoLoginResponseDto.KakaoAccount account = kakaoUserInfo.getKakaoAccount();
 
         log.info("kakaoUserInfo: {}", kakaoUserInfo);

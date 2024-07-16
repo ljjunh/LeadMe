@@ -28,7 +28,7 @@ public class KakaoLoginController {
     private String key;
 
     @GetMapping("/oauth/kakao/callback")
-    public ResponseEntity<?> loginCallback(String code, HttpServletResponse response) throws IOException {
+    public ResponseEntity<?> loginCallback(String code) throws IOException {
 
         String contentType = "application/x-www-form-urlencoded;charset=utf-8";
 
