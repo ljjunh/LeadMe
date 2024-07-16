@@ -3,6 +3,10 @@ import { Routes, Route } from "react-router-dom";
 import { RecoilRoot } from "recoil";
 import { MainCanvas } from "./components/MainCanvas";
 import styled from "styled-components";
+import Home from "./pages/Home";
+import Rank from "./pages/Rank";
+import Search from "./pages/Search";
+import Challenge from "./pages/Challenge";
 
 const App: React.FC = () => {
   return (
@@ -16,6 +20,10 @@ const App: React.FC = () => {
             </Wrapper>
           }
         ></Route>
+        <Route path="/home" element={<Home />}></Route>
+        <Route path="/rank" element={<Rank />}></Route>
+        <Route path="/search" element={<Search />}></Route>
+        <Route path="/challenge" element={<Challenge />}></Route>
       </Routes>
     </RecoilRoot>
   );
