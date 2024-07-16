@@ -13,8 +13,6 @@ public class OAuthDto {
     @AllArgsConstructor
     public static class Request {
 
-        private String memberType;
-
         private String accessToken;
 
         private String refreshToken;
