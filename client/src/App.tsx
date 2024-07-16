@@ -7,9 +7,6 @@ const App: React.FC = () => {
   return (
     <RecoilRoot>
       <Wrapper>
-        {/* <div>
-        <Button label="Send Request" url="YOUR_BACKEND_URL_HERE" />
-        </div> */}
         <MainCanvas />
       </Wrapper>
     </RecoilRoot>
