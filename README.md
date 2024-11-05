@@ -1,8 +1,13 @@
 # SSAFY 11기 공통프로젝트 : LeadMe
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/8a9dd245-4656-407d-8b2f-e93f42463129/04605830-2e6a-4c14-86c5-62100814c0a4/image.png)
-![메인.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/8a9dd245-4656-407d-8b2f-e93f42463129/0887ff21-056b-4baf-b240-0191435deb5f/%EB%A9%94%EC%9D%B8.png)
-![챌린지.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/8a9dd245-4656-407d-8b2f-e93f42463129/2adb7272-490a-45ec-bf63-1ac4b954d37b/%EC%B1%8C%EB%A6%B0%EC%A7%80.png)
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/8a9dd245-4656-407d-8b2f-e93f42463129/3d4b135d-8628-492b-a63a-c6b1562c44f7/image.png)
+<div align="center" style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center">
+  <img src="./readmeImages/3d.png" width="400"/>
+  <img src="./readmeImages/main.png" width="400"/>
+</div>
+
+<div align="center" style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center">
+  <img src="./readmeImages/challenge.png" width="400"/>
+  <img src="./readmeImages/battle.png" width="400"/>
+</div>
 <br/>
 
 ## 🖥️ 프로젝트 소개
@@ -39,6 +44,10 @@ https://youtu.be/Szto2ESb9Ss
 
 FE
 ---
+1. 노드 버전 : v20.17.0
+2. React 버전 : 18.3.1
+3. TypeScript 버전 : 5.2.2
+4. 패키지 매니저 : npm 10.9.0
 
 
 BE
@@ -46,7 +55,7 @@ BE
 1. 자바 버전 : OpenJDK 17
 2. Springboot 버전 : 3.3.1
 3. 빌드 & 빌드 도구 : Gradle, Jenkins
-4. Git branch 전략 :  
+  
 
 
 
@@ -152,14 +161,14 @@ Comunication
 
 ## 🏗 아키텍처
 
-![아키텍처](./architecture_leadme.png)
+![아키텍처](./readmeImages/architecture.png)
 
 
 <br/>
 
 ## 📐 ERD
 
-![ERD](./image.png)
+![ERD](./readmeImages/erd.png)
 
 
 
