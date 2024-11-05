@@ -18,7 +18,7 @@
 <br/>
 
 ## 📹 프로젝트 시연 영상
-
+https://youtu.be/Szto2ESb9Ss
 <br/>
 
 ## 🧑‍🤝‍🧑 멤버 구성 및 역할
