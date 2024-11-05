@@ -1,7 +1,8 @@
 # SSAFY 11기 공통프로젝트 : LeadMe
-![LEADME_LOGO](/uploads/d373b866f74d442994a9ec7aa594f358/LEADME-최종_1920px___2_.png)
-
-
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/8a9dd245-4656-407d-8b2f-e93f42463129/04605830-2e6a-4c14-86c5-62100814c0a4/image.png)
+![메인.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/8a9dd245-4656-407d-8b2f-e93f42463129/0887ff21-056b-4baf-b240-0191435deb5f/%EB%A9%94%EC%9D%B8.png)
+![챌린지.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/8a9dd245-4656-407d-8b2f-e93f42463129/2adb7272-490a-45ec-bf63-1ac4b954d37b/%EC%B1%8C%EB%A6%B0%EC%A7%80.png)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/8a9dd245-4656-407d-8b2f-e93f42463129/3d4b135d-8628-492b-a63a-c6b1562c44f7/image.png)
 <br/>
 
 ## 🖥️ 프로젝트 소개
