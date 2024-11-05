@@ -27,19 +27,6 @@
 https://youtu.be/Szto2ESb9Ss
 <br/>
 
-## 🧑‍🤝‍🧑 멤버 구성 및 역할
-
-|FE/BE|이름|역할|
-|---|---|-------|
-|FE|윤하연|자신이 개발한 내용 기입!|
-|FE|임준희|자신이 개발한 내용 기입!|
-|BE|남보우|자신이 개발한 내용 기입!|
-|BE|박준엽|자신이 개발한 내용 기입!|
-|BE|박진우|Jenkins Pipeline 활용 CI/CD 환경 구축, OAuth2.0 회원 서비스, 채팅 서비스, 챌린지 서비스, 피드 서비스, 가이드 서비스|
-|BE|양준영|자신이 개발한 내용 기입!|
-
-<br/>
-
 ## ⚙️ 개발 환경
 
 FE
@@ -72,11 +59,13 @@ FE
 
 **Library**
 <br/>
+
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Threejs](https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 <br/>
 ![React Query](https://img.shields.io/badge/-React%20Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white)
+
 
 BE
 ---
