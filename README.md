@@ -55,17 +55,30 @@ BE
 
 FE
 ---
+**Language**
+<br/>
 
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
 **Library**
 <br/>
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Threejs](https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![OpenVidu](https://img.shields.io/badge/OpenVidu-%23F24E1E.svg?style=for-the-badge&logo=OpenVidu&logoColor=white)
+![BlazePose](https://img.shields.io/badge/BlazePose-0078C0?style=for-the-badge&logo=BlazePose&logoColor=white)
+![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101)
+![Gsap](https://img.shields.io/badge/Gsap-23593d88.svg?style=for-the-badge&logo=Gsap&logoColor=white)
+![Chart.js](https://img.shields.io/badge/Chart.js-black?style=for-the-badge&logo=Chart.js&badgeColor=010101)
+![JoyRide](https://img.shields.io/badge/JoyRide-6DB33F?style=for-the-badge&logo=JoyRide&logoColor=white)
+![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
 <br/>
-![React Query](https://img.shields.io/badge/-React%20Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white)
 
+**State Management**
+<br/>
+
+![React Query](https://img.shields.io/badge/-React%20Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white)
+![Recoil](https://img.shields.io/badge/Recoil-black?style=for-the-badge&logo=recoil&logoColor=white)
 
 BE
 ---
@@ -125,12 +138,22 @@ Comunication
 > 자신이 팔로워 한 유저 목록, 자신을 팔로잉한 유저 목록을 조회할 수 있다. <br>
 > 채팅 페이지로 이동 및 프로필 편집을 할 수 있다. <br>
 
-**📌 챌린지 검색**
-
-
 **📌 챌린지 연습하기**
 
+> 사용자에게 가이드 영상이 제공된다. <br>
+> 사용자는 가이드 영상을 속도조절, 일시정지, 좌우반전할 수 있으며, 연습 영상을 녹화할 수 있다. <br>
+> 녹화 화면에는 실시간으로 스켈레톤 가이드가 함께 표시된다. <br>
+> 녹화된 사용자 영상과 가이드 영상을 비교 분석하여 동작 유사도 그래프와 점수를 확인할 수 있다. <br>
+> 녹화된 영상은 다시보기가 가능하며, SNS에 공유할 수 있다. <br>
+
 **📌 챌린지 배틀**
+
+> 사용자는 배틀 방을 생성할 수 있으며, 비밀번호 설정이 가능하다. <br>
+> 사용자는 생성된 배틀 방에 입장할 수 있다. <br>
+> 방 내 한 사용자가 영상을 선ㅌ개하면 실시간으로 양측 화면이 동기화된다. <br>
+> 배틀 화면에는 내 영상, 챌린지 영상, 상대방 영상이 표시되며, 내 화면에는 스켈레톤 가이드가 함께 제공된다. <br>
+> 실시간으로 스켈레톤과 사용자의 동작을 비교하여 'Good', 'Bad', 'Perfect' 피드백이 표시되며, 연속 성공 시 콤보가 나타난다. <br>
+> 배틀 종료 후 영상 분석을 통해 점수가 산정되어 승자가 결정된다. <br>
 
 **📌 채팅**
 
